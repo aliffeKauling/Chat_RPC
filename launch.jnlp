@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="file:/C:/Users/Roberto%20junior/Desktop/Chat/dist/" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>Chat</title>
+        <vendor>Roberto junior</vendor>
+        <homepage href=""/>
+        <description>Chat</description>
+        <description kind="short">Chat</description>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="Chat.jar" main="true"/>
+    </resources>
+    <application-desc main-class="br.com.transientfield.gui.ClienteSocket">
+    </application-desc>
+</jnlp>
