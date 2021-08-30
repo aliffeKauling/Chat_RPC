@@ -1,12 +1,15 @@
 ==========================
-DESCRIÇÃO DE SAÍDA DE CONSTRUÇÃO
+DESCRIÇÃO DA ATIVIDADE
 ==========================
 
-Quando você constrói um projeto de aplicativo Java que tem uma classe principal, o IDE
-copia automaticamente todo o JAR
-arquivos no classpath de projetos para a pasta dist / lib de seus projetos. O IDE
-também adiciona cada um dos arquivos JAR ao elemento Class-Path no aplicativo
-Arquivo de manifesto dos arquivos JAR (MANIFEST.MF).
+Desenvolver um Chat RPC com transferência de arquivos. O Cliente Chat lê (aloca em memória) um arquivo do disco local e envia (via RPC) para o servidor. O servidor, por sua vez, recebe o arquivo (via RPC), grava no disco local no padrão <nome-usuario>-<contador-msg>.serv.
+Para receber as mensagens, os clientes devem consultar o servidor de tempos em tempos (polling).
+
+
+
+==========================
+DESCRIÇÃO DE SAÍDA DE CONSTRUÇÃO
+==========================
 
 Para executar o projeto a partir da linha de comando, vá para a pasta dist e
 digite o seguinte:
